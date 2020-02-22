@@ -50,13 +50,38 @@
                     <td>{{ PI }} </td>
                     <td> number:'3.0-0'</td>
                     <td>{{ PI | number:'3.0-0' }} </td>
-                </tr>
+                </tr> 
 
                 <tr>
                     <td>{{ PI }} </td>
                     <td> number:'.0-2'</td>
                     <td>{{ PI | number:'.0-2' }} </td>
                 </tr>
+
+                <tr>
+                    <td>{{ porcentaje }} </td>
+                    <td> percent</td>
+                    <td>{{ porcentaje | percent }} </td>
+                </tr>
+
+                <tr>
+                    <td>{{ porcentaje }} </td>
+                    <td> percent</td>
+                    <td>{{ porcentaje | percent: '2.2-2' }} </td>
+                </tr>
+
+                <tr>
+                    <td>{{ salario }} </td>
+                    <td> currency </td>
+                    <td>{{  salario | currency }} </td>
+                </tr>
+
+                <tr>
+                    <td>{{ salario }} </td>
+                    <td> currency:clf </td>
+                    <td>{{  salario | currency:'CLF $':'symbol': '.0-0' }} </td>
+                </tr>
+                
 
             </tbody>
 
