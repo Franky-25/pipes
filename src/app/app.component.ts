@@ -25,6 +25,7 @@ export class AppComponent {
   activar : boolean = true;
 
   idioma: string = 'en';
+  videoUrl: string = 'https://www.youtobe.com/embed/-CBKW-90VxQ';
 
 
   valorPromesa = new Promise<string>(( resolve ) => {
